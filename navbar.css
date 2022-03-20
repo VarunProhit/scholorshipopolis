@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.navbar
+{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+}
+.name
+{
+    margin-left: 10px;
+    font-family: cursive;
+    font-weight: 200;
+   letter-spacing: 2px;
+   
+}
+.heading
+{
+    
+    text-decoration: none;
+    margin-left: 500px;
+}
+.heading ul
+{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+.heading li
+{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.btn
+{
+    font-size: 18px;
+    background-color: turquoise;
+    border-bottom: 100%;
+    margin-left: 24px;
+}
