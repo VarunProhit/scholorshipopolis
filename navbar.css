@@ -1,46 +1,36 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
 
-.navbar
-{
-    display: flex;
+  body{
+    font-family: 'Ubuntu Mono'
+  }
+  #intro{
     background-color: black;
-    color: whitesmoke;
-}
-.name
-{
-    margin-left: 10px;
-    font-family: cursive;
-    font-weight: 200;
-   letter-spacing: 2px;
-   
-}
-.heading
-{
-    
-    text-decoration: none;
-    margin-left: 500px;
-}
-.heading ul
-{
-    list-style: none;
-    display: flex;
-    padding-top: 10px;
-}
-.heading li
-{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 20px;
-}
-.btn
-{
-    font-size: 18px;
-    background-color: turquoise;
-    border-bottom: 100%;
-    margin-left: 24px;
-}
+    font-family: 'Ubuntu Mono - bold';
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .nav-item{
+    padding: 0 1rem;
+  }
+  .login{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-brand
+  {
+      letter-spacing: 2px;
+  }
+
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
