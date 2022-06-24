@@ -1,0 +1,15 @@
+.header {
+	&-left {
+		&-image {
+			width: 4rem;
+			height: 4rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				background-color: var(--white);
+				border-radius: 500px;
+			}
+		}
+	}
+}

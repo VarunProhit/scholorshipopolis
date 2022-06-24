@@ -1,0 +1,27 @@
+button {
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	user-select: none;
+	font: inherit;
+}
+
+.btn {
+	background-color: var(--transparent);
+	color: var(--bgcolor);
+	font-size: 1rem;
+	margin: 0.25rem;
+	padding: 0.6rem 1.5rem;
+	border-radius: 500px;
+	border: 2px solid transparent;
+	outline: 2px solid transparent;
+	transition: all 1s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    &-blue{
+        background-color: var(--blue);
+        color: var(--bgcolor);
+    }
+}
